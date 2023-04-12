@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+   
+
+    <body>
+        <div class="nav">
+            <ul>
+                <li class="nav-item"><a href="index.html">Google Search</a></li>
+            </ul>
+        </div>
+
+    <h2 class="advance-search-heading">Advanced Search</h2>
+    <hr>
+
+
+        <div class="container-advanced">
+            <p>Find pages with...</p>
+        </div>
+       
+        
+        <form action="https://google.com/search">
+        
+        <div class="advanced-input">
+            <div class="phrase">
+                <p class="form-p">all these words:</p>
+            </div>
+            <div class="word-input">
+                <!-- name will tell Google what kind of search to conduct -->
+                <input class="form-control" type="text" name="as_q">
+            </div>
+        </div>
+
+        <div class="advanced-input">
+            <div class="phrase">
+                <p class="form-p">this extact word or phrase:</p>
+            </div>
+            <div class="word-input">
+                <input class="form-control" type="text" name="as_epq">
+            </div>
+        </div>
+
+        <div class="advanced-input">
+            <div class="phrase">
+                <p class="form-p"> any of these words: </p>
+            </div>
+            <div class="word-input">
+                <input class="form-control" type="text" name="as_oq">
+            </div>
+        </div>
+
+        <div class="advanced-input">
+            <div class="phrase">
+                <p class="form-p">none of these words:</p>
+            </div>
+            <div class="word-input">
+                <input class="form-control" type="text" name="as_eq">
+            </div>
+        </div>
+
+        <div class="button-2">
+            <input class="adv-btn" class="word-input" type="submit" value="Advanced Search">
+        </div>
+
+    </form>
+
+        </body>
+
+
+   
+</html>
